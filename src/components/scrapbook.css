@@ -9,5 +9,5 @@
 .scrapbook-image{
     width:20%;
     border: 10pv solid #fff;
-    
+    position: absolute;
 }

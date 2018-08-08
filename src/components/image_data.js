@@ -12,35 +12,65 @@ import SWProp from './images/swprop3.jpg';
 
 export default [{
         src:Looselips,
-        style:{}
+        style:{
+            left:'5%',
+            tranform:'rotate(-10deg)'
+        }
         },
         {
         src:Vader,
-        style:{} 
+        style:{
+            left:'40%',
+            transform:'rotate(6deg)'
+        } 
         },  
         {
         src:Fett,
-        style:{} 
+        style:{
+            right:'15%',
+            transform:'rotate(-9deg)'
+        } 
         },
         {
             src:C3PO,
-            style:{} 
+            style:{
+                left:"8%",
+                top:'28%',
+                transform:'rotate(8deg)'
+            } 
             },
             {
                 src:EmpireProp,
-                style:{} 
+                style:{
+                    left:'37%',
+                    top:'25%',
+                    transform:'rotate(-12deg)'
+                } 
                 },
                 {
                     src:Poster,
-                    style:{} 
+                    style:{
+                        right:'12%',
+                        top:'26%',
+                        transform:'rotate(10deg)'
+                    } 
                     },
                     {
                         src:RebelScum,
-                        style:{} 
+                        style:{
+                            left:'25%',
+                            top:'48%',
+                            transform:'rotate(-5deg)'
+
+                        } 
                         },
                         {
                             src:SWProp,
-                            style:{} 
+                            style:{
+                                right:'25%',
+                                top:'52%',
+                                transform:'rotate(16deg)'
+                            } 
                             },
     
     ];
