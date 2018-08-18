@@ -1,9 +1,19 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import { updateTime } from '../actions/index';
+
 
 
 
 class Clock extends Component{
+
+    componentWillMount(){
+        setInterval(
+            this.props.updateTime, 1000
+        );
+    }
+
+
     render(){
         return(
             <div className="text-center mt-5">
@@ -20,4 +30,4 @@ function mapStateToProps(state){
 
 }
 
-export default connect(mapStateToProps)(Clock);
+export default connect(mapStateToProps, {updateTime})(Clock);
